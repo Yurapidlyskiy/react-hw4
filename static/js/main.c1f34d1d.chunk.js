@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-hw4"]=this["webpackJsonpreact-hw4"]||[]).push([[0],{3:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),c=a(2),l=a.n(c),i=r.a.createElement("li",{}),m=r.a.createElement("li",{}),s=r.a.createElement("li",{}),E=r.a.createElement("li",{}),o=r.a.createElement("ul",{},i,m,s,E),h=r.a.createElement("nav",{},o);l.a.render(h,document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.c1f34d1d.chunk.js.map
