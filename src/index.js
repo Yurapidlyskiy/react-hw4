@@ -1,17 +1,17 @@
+// домашнє завдання
+// створити елемент nav всередині якого буде список ul з чотирма елементами li
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const li1 = React.createElement("li", {});
+const li2 = React.createElement("li", {});
+const li3 = React.createElement("li", {});
+const li4 = React.createElement("li", {});
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const ulElem = React.createElement("ul", {}, li1, li2, li3, li4);
+
+const nav = React.createElement("nav", {}, ulElem);
+
+ReactDOM.render(nav, document.getElementById("root"));
